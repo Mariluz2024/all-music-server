@@ -4,7 +4,8 @@
   "description": "All Music JSON Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,6 @@
   },
   "homepage": "https://github.com/Mariluz2024/all-music-server#readme",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.3"
   }
 }

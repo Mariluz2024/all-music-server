@@ -1,26 +1,33 @@
 {
-    "users": [
+    "videos": [
         {
-            "id": 1,
-            "name": "Alice",
-            "email": "alice@example.com"
+            "id": "uTBfN9KMfPk",
+            "artist": "Bruno Marciano",
+            "title": "Quiero estar a tu lado"
         },
         {
-            "id": 2,
-            "name": "Bob",
-            "email": "bob@example.com"
+            "id": "uTBfN9KMfPk",
+            "artist": "Bruno Marciano",
+            "title": "Quiero estar a tu lado"
         }
     ],
-    "posts": [
+    "playlists": [
         {
             "id": 1,
-            "title": "Hello World",
-            "content": "This is my first post"
+            "name": "My List of Songs of my Sould",
+            "videos": [
+                "uTBfN9KMfPk",
+                "slñdjkfalksd"
+            ]
         },
         {
             "id": 2,
-            "title": "JSON Server",
-            "content": "Easy and fast to set up"
+            "name": "My another list",
+            "videos": [
+                "uTBfN9KMfPk",
+                "slñdjkfalksd",
+                "aaabbbcccdf"
+            ]
         }
     ]
 }

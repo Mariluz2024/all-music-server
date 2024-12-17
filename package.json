@@ -1,0 +1,27 @@
+{
+  "name": "all-music-server",
+  "version": "1.0.0",
+  "description": "All Music JSON Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariluz2024/all-music-server.git"
+  },
+  "keywords": [
+    "music",
+    "entertaiment",
+    "video",
+    "player",
+    "github",
+    "react"
+  ],
+  "author": "Mariluz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariluz2024/all-music-server/issues"
+  },
+  "homepage": "https://github.com/Mariluz2024/all-music-server#readme"
+}

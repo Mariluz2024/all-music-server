@@ -42,6 +42,47 @@ server.get("/playlists/:id/details", (req, res) => {
   }
 });
 
+server.delete("/playlist/:playlistId/remove-song/:songId", (req, res) => {
+  const { playlistId, songId } = req.params;
+
+  // Obtener la base de datos actual
+  const db = router.db; // Acceso a los datos
+  const playlists = db.get("playlists").value();
+
+  // Encontrar la playlist por ID
+  const playlist = playlists.find((pl) => pl.id == playlistId);
+
+  if (playlist) {
+    // Verificar si la canción existe en la playlist
+    const songIndex = playlist.videos.indexOf(songId);
+
+    if (songIndex !== -1) {
+      // Eliminar la canción del arreglo de videos
+      playlist.videos.splice(songIndex, 1);
+
+      // Actualizar la base de datos
+      db.get("playlists")
+        .find({ id: playlistId })
+        .assign({ videos: playlist.videos })
+        .write();
+
+      // Responder con la playlist actualizada
+      res.json({
+        message: "Canción eliminada correctamente",
+        playlist: {
+          id: playlist.id,
+          name: playlist.name,
+          videos: playlist.videos,
+        },
+      });
+    } else {
+      res.status(404).json({ error: "La canción no existe en la playlist" });
+    }
+  } else {
+    res.status(404).json({ error: "Playlist no encontrada" });
+  }
+});
+
 // Use the router
 server.use(router);
 

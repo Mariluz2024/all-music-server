@@ -1,32 +1,223 @@
 {
     "videos": [
         {
-            "id": "uTBfN9KMfPk",
-            "artist": "Bruno Marciano",
-            "title": "Quiero estar a tu lado"
+            "id": "hlgx4OKsWtE",
+            "artist": "Karol G",
+            "title": "Amargura"
         },
         {
-            "id": "uTBfN9KMfPk",
-            "artist": "Bruno Marciano",
-            "title": "Quiero estar a tu lado"
-        }
-    ],
+            "id": "QCZZwZQ4qNs",
+            "artist": "Karol G",
+            "title": "Si Antes Te Hubiera Conocido"
+        },
+        {
+            "id": "VBcs8DZxBGc",
+            "artist": "Karol G",
+            "title": "Mi Ex Tenia Razon"
+        },
+        {
+            "id": "ca48oMV59LU",
+            "artist": "Karol G",
+            "title": "Provenza"
+        },
+        {
+            "id": "8iPcqtHoR3U",
+            "artist": "Romeo Santos",
+            "title": "Eres Mia"
+        },
+        {
+            "id": "8_QY5gFQUTg",
+            "artist": "Romeo Santos",
+            "title": "Obsesion"
+        },
+        {
+            "id": "_uqZYZxleqA",
+            "artist": "Romeo Santos",
+            "title": "Llevame Contigo"
+        },
+        {
+            "id": "QFs3PIZb3js",
+            "artist": "Romeo Santos",
+            "title": "Propuesta Indecente"
+        },
+        {
+            "id": "44kityInDvM",
+            "artist": "Mana",
+            "title": "Bendita tu Luz"
+        },
+        {
+            "id": "av3wkasS-WQ",
+            "artist": "Mana",
+            "title": "Mariposa Traicionera "
+        },
+        {
+            "id": "fBrX8ym3dBM",
+            "artist": "Mana",
+            "title": "Clavado en un Bar"
+        },
+        {
+            "id": "mrhcucasAlw",
+            "artist": "Mana",
+            "title": "Eres mi Religion"
+        },
+        {
+            "id": "WWAWQmhqWGo",
+            "artist": "Gloria Estefan",
+            "title": "Mi Tierra"
+        },
+        {
+            "id": "cyblSDoRRxg",
+            "artist": "Gloria Estefan",
+            "title": "Hoy"
+        },
+        {
+            "id": "fPe4nMKvppE",
+            "artist": "Gloria Estefan",
+            "title": "Mi Buen Amor"
+        },
+        {
+            "id": "Aeo0o3LcJfQ",
+            "artist": "Gloria Estefan",
+            "title": "Con los años que me quedan"
+        },
+        {
+            "id": "g4S3jUtqcyM",
+            "artist": "Marc Anthony",
+            "title": "Y Hubo Alguien"
+        },
+        {
+            "id": "YXnjy5YlDwk",
+            "artist": "Marc Anthony",
+            "title": "Vivir mi Vida"
+        },
+        {
+            "id": "toLrTToaN0M",
+            "artist": "Marc Anthony",
+            "title": "Ahora Quien"
+        },
+        {
+            "id": "0nvNEGEaEis",
+            "artist": "Marc Anthony",
+            "title": "Te Conozco Bien"
+        },
+        {
+            "id": "kPa7bsKwL-c",
+            "artist": "Bruno Mars",
+            "title": "Die With a Smile"
+        },
+        {
+            "id": "6k8cpUkKK4c",
+            "artist": "Bruno Mars",
+            "title": "Count on Me"
+        },
+        {
+            "id": "dElRVQFqj-k",
+            "artist": "Bruno Mars",
+            "title": "Marry You"
+        },
+        {
+            "id": "kON9fn01rUQ",
+            "artist": "Bruno Mars",
+            "title": "When I Was Your Man"
+        },
+        {
+            "id": "QDaYDSB5iPA",
+            "artist": "Ricardo Arjona",
+            "title": "Te Conozco"
+        },
+        {
+            "id": "ucyQM5z2qHQ",
+            "artist": "Ricardo Arjona",
+            "title": "Mujeres"
+        },
+        {
+            "id": "ZZ7iUO9uS_Q",
+            "artist": "Ricardo Arjona",
+            "title": "Quien Diria"
+        },
+        {
+            "id": "z64CDwgAPd0",
+            "artist": "Ricardo Arjona",
+            "title": "Como Duele"
+        },
+        {
+            "id": "fBi-p3H3EqE",
+            "artist": "Grupo 5",
+            "title": "Motor y Motivo"
+        },
+        {
+            "id": "DaiKUksMszo",
+            "artist": "Grupo 5",
+            "title": "El Embrujo"
+        },
+        {
+            "id": "fBSO0jWAPdc",
+            "artist": "Grupo 5",
+            "title": "Quien Cura"
+        },
+        {
+            "id": "TtLpgqu77cw",
+            "artist": "Grupo 5",
+            "title": "Amor de Mis Amores"
+        },
+        {
+            "id": "csM1RzJLG04",
+            "artist": "Ana Gabriel",
+            "title": "Eres Todo en Mi"
+        },
+        {
+            "id": "1pr7Fv-9Z3I",
+            "artist": "Ana Gabriel",
+            "title": "Evidencias"
+        },
+        {
+            "id": "UMDUbLYXEqY",
+            "artist": "Ana Gabriel",
+            "title": "Obsesion"
+        },
+        {
+            "id": "xVXhCbCrW70",
+            "artist": "Ana Gabriel",
+            "title": "Hechizo"
+        },
+        {
+            "id": "F0rwOsAteXM",
+            "artist": "Pablo Alboran",
+            "title": "Solamente Tu"
+        },
+        {
+            "id": "lvfyf7R8NVg",
+            "artist": "Pablo Alboran",
+            "title": "Quien"
+        },
+        {
+            "id": "-FM6KmpvfMk",
+            "artist": "Pablo Alboran",
+            "title": "Por Fin"
+        },
+        {
+            "id": "RA4gD606n1Q",
+            "artist": "Pablo Alboran",
+            "title": "Vuelvo a Verte"
+        }],
+
+
     "playlists": [
         {
             "id": 1,
-            "name": "My List of Songs of my Sould",
+            "name": "Mis favoritas del jueves",
             "videos": [
                 "uTBfN9KMfPk",
-                "slñdjkfalksd"
+                "hlgx4OKsWtE",
+                "QCZZwZQ4qNs"
             ]
         },
         {
             "id": 2,
-            "name": "My another list",
+            "name": "Mi lista favorita",
             "videos": [
-                "uTBfN9KMfPk",
-                "slñdjkfalksd",
-                "aaabbbcccdf"
+                "RA4gD606n1Q",
+                "lvfyf7R8NVg"
             ]
         }
     ]

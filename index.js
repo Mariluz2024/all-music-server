@@ -83,6 +83,40 @@ server.delete("/playlist/:playlistId/remove-song/:songId", (req, res) => {
   }
 });
 
+server.post("/playlists/new", (req, res) => {
+  const { name, videos } = req.body;
+
+  // Validar los datos de entrada
+  if (!name || !videos || !Array.isArray(videos)) {
+    return res.status(400).json({ error: "Datos de la playlist no válidos" });
+  }
+
+  // Leer la base de datos actual
+  const db = router.db;
+  const playlists = db.get("playlists").value();
+
+  // Generar un nuevo ID para la playlist
+  const newId = playlists.length
+    ? Math.max(...playlists.map((pl) => pl.id)) + 1
+    : 1;
+
+  // Crear la nueva playlist
+  const newPlaylist = {
+    id: newId,
+    name,
+    videos,
+  };
+
+  // Guardar la nueva playlist en la base de datos
+  db.get("playlists").push(newPlaylist).write();
+
+  // Responder con la nueva playlist
+  res.status(201).json({
+    message: "Playlist creada correctamente",
+    playlist: newPlaylist,
+  });
+});
+
 // Use the router
 server.use(router);
 

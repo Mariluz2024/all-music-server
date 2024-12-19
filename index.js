@@ -119,6 +119,39 @@ server.post("/playlists/new", (req, res) => {
   });
 });
 
+server.put("/playlist/:id/edit", (req, res) => {
+  const { id } = req.params;
+  const { name, videos } = req.body;
+
+  // Validate input
+  if (!name || !Array.isArray(videos)) {
+    return res.status(400).json({ error: "Datos de la playlist no válidos" });
+  }
+
+  // Access the current database
+  const db = router.db;
+  const playlists = db.get("playlists");
+
+  // Find the playlist by ID
+  const playlist = playlists.find({ id: parseInt(id) }).value();
+
+  if (!playlist) {
+    return res.status(404).json({ error: "Playlist no encontrada" });
+  }
+
+  // Update the playlist
+  playlists
+    .find({ id: parseInt(id) })
+    .assign({ name, videos })
+    .write();
+
+  // Respond with the updated playlist
+  res.json({
+    message: "Playlist actualizada correctamente",
+    playlist: { id: parseInt(id), name, videos },
+  });
+});
+
 // Use the router
 server.use(router);
 

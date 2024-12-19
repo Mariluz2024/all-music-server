@@ -8,6 +8,8 @@ const middlewares = jsonServer.defaults(); // Default middlewares
 // Use default middlewares
 server.use(middlewares);
 
+server.use(jsonServer.bodyParser);
+
 // Custom route example (optional)
 server.get("/welcome", (req, res) => {
   res.json({ message: "Welcome to the JSON Server!" });

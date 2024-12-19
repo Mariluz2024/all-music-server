@@ -243,24 +243,17 @@
   ],
   "playlists": [
     {
-      "id": 1,
-      "name": "Mis favoritas del jueves",
-      "videos": [
-        "-FM6KmpvfMk",
-        "TtLpgqu77cw",
-        "QCZZwZQ4qNs",
-        "fBi-p3H3EqE",
-        "VBcs8DZxBGc"
-      ]
-    },
-    {
       "id": 2,
       "name": "Mi lista favorita",
       "videos": [
         "QCZZwZQ4qNs",
         "YXnjy5YlDwk",
         "QFs3PIZb3js",
-        "mrhcucasAlw"
+        "mrhcucasAlw",
+        "kPa7bsKwL-c",
+        "6k8cpUkKK4c",
+        "dElRVQFqj-k",
+        "kON9fn01rUQ"
       ]
     },
     {
@@ -270,7 +263,8 @@
         "kON9fn01rUQ",
         "QCZZwZQ4qNs",
         "0nvNEGEaEis",
-        "fPe4nMKvppE"
+        "fPe4nMKvppE",
+        "fBSO0jWAPdc"
       ]
     },
     {
@@ -287,17 +281,8 @@
       "videos": [
         "hlgx4OKsWtE",
         "ca48oMV59LU",
-        "8_QY5gFQUTg"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Otra lista para el jueves",
-      "videos": [
-        "lvfyf7R8NVg",
-        "-FM6KmpvfMk",
-        "RA4gD606n1Q",
-        "xVXhCbCrW70"
+        "8_QY5gFQUTg",
+        "_uqZYZxleqA"
       ]
     }
   ]

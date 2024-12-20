@@ -11,7 +11,7 @@ server.use(middlewares);
 const allowAccessFromAnywhere = (req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*")
   next()
-} // configuracion para permir acceso de cualquier cliente en el mundo a mi servidor
+} // configuracion para permitir acceso de cualquier cliente en el mundo a mi servidor
 
 server.use(allowAccessFromAnywhere)
 

@@ -1,45 +1,44 @@
-
 # All Music Server
 
-## Introduction
-The **All Music Server** is a backend service built with [JSON Server](https://github.com/typicode/json-server). It provides an API for the **All Music** application, enabling features such as playlist management, song search, and video playback.
+## Introducción
+El **All Music Server** es un servicio backend creado con [JSON Server](https://github.com/typicode/json-server). Proporciona una API para la aplicación **All Music**, habilitando funciones como la gestión de playlists, búsqueda de canciones y reproducción de videos.
 
-## Requirements
-- **Node.js** (version 14.x or later)
+## Requisitos
+- **Node.js** (versión 14.x o posterior)
 - **npm** (Node Package Manager)
 
-## Installation
-Follow the steps below to set up the server:
+## Instalación
+Sigue los siguientes pasos para configurar el servidor:
 
-1. Clone the repository:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/Mariluz2024/all-music-server.git
    cd all-music-server
    ```
 
-2. Install the dependencies:
+2. Instala las dependencias:
    ```bash
    npm install
    ```
 
-## Execution
-Run the server with the following command:
+## Ejecución
+Inicia el servidor con el siguiente comando:
 ```bash
 npm start
 ```
 
-By default, the server runs on `http://localhost:3000`. You can customize the port by modifying the `index.js` file or using environment variables.
+Por defecto, el servidor se ejecuta en `http://localhost:3000`. Puedes personalizar el puerto modificando el archivo `index.js` o utilizando variables de entorno.
 
-The server provides endpoints such as:
-- `GET /videos` - Retrieve a list of available songs.
-- `GET /playlists` - Retrieve a list of playlists.
-- `POST /playlists/new` - Create a new playlist.
-- `PUT /playlist/:id/edit` - Update an existing playlist.
-- `DELETE /playlist/:playlistId/remove-song/:songId` - Remove a song from a playlist.
+El servidor proporciona los siguientes endpoints:
+- `GET /videos` - Obtener una lista de canciones disponibles.
+- `GET /playlists` - Obtener una lista de playlists.
+- `POST /playlists/new` - Crear una nueva playlist.
+- `PUT /playlist/:id/edit` - Actualizar una playlist existente.
+- `DELETE /playlist/:playlistId/remove-song/:songId` - Eliminar una canción de una playlist.
 
-For additional details, refer to the [GitHub repository](https://github.com/Mariluz2024/all-music-server).
+Para más detalles, consulta el [repositorio en GitHub](https://github.com/Mariluz2024/all-music-server).
 
-## Author
-Developed by **Mariluz**. Feel free to explore, contribute, or raise issues in the project repository.
+## Autor
+Desarrollado por **Mariluz**. Siéntete libre de explorar, contribuir o reportar problemas en el repositorio del proyecto.
 
-**GitHub Profile:** [Mariluz2024](https://github.com/Mariluz2024)
+**Perfil de GitHub:** [Mariluz2024](https://github.com/Mariluz2024)
